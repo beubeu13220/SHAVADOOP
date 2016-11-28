@@ -1,4 +1,4 @@
- # Projet SHAVADOOP  
+# Projet SHAVADOOP
 
  
 #### Introduction 
@@ -7,7 +7,10 @@ Pour rappel, notre objectif est de construire un programme qui imite le fonction
 Notre implémentation personnalisée de l’algorithme Map-Reduce se fera selon le modèle ci-dessous :  
 
 
-->![Algo MAP-ReDUCE](https://s3.amazonaws.com/files.dezyre.com/images/Tutorials/MapReduce_Example.jpg)<-
+<p align="center">
+  <img src="https://s3.amazonaws.com/files.dezyre.com/images/Tutorials/MapReduce_Example.jpg">
+</p>
+
 
 Cette note est accompagnée de plusieurs fichiers, d’une part le fichier zip qui contient le code source de notre programme, et d’autre part, les deux fichiers jar servant à l’utilisation du programme. Egalement vous trouverez une note plus complète au format PDF.  
 
@@ -25,10 +28,10 @@ Le « PATH » doit être un chemin tel que « /cal/homes/brehelin/Desktop/
 
 Le « PATH » représente le répertoire de référence tout au long du processus de traitement, il est donc nécessaire que celui-ci contienne tous les éléments dont a besoin notre programme. Il est impératif que notre dossier contienne: 
 
-    1. Le fichier source texte sur lequel nous voulons lancer notre programme 
+1. Le fichier source texte sur lequel nous voulons lancer notre programme 
 
-    2. Un fichier texte qui référence l’adresse des machines sur lesquelles nous souhaitons paralléliser notre programme sous le nom « ip_adress.txt » (joint avec cette note).  
+2. Un fichier texte qui référence l’adresse des machines sur lesquelles nous souhaitons paralléliser notre programme sous le nom « ip_adress.txt » (joint avec cette note).  
 
-    3. Le fichier texte « pronom_list.txt »  qui référence tous les pronoms et autres mots à bannir de notre « Word Count » 
+3. Le fichier texte « pronom_list.txt »  qui référence tous les pronoms et autres mots à bannir de notre « Word Count » 
 
 Après lancement du projet, on retrouvera tous nos fichiers de sortie dans ce dossier de référence.  
